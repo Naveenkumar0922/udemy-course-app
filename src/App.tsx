@@ -131,7 +131,7 @@ const searchCourse = (query:string)=>{
 
   courseData.map((course)=>{
     console.log(query)
-      if(course.courseName.toLowerCase().includes(query) || course.tags.includes(query.toLowerCase())){
+      if(course.courseName.toLowerCase().includes(query.toLocaleLowerCase()) || course.tags.includes(query.toLowerCase())){
         console.log(course)
         tempArray.push(course);
       }
