@@ -1,0 +1,13 @@
+[
+    {
+        "id" : 1,
+        "area" : "Designer" ,
+        "isChecked" : false
+        
+    },
+    {
+        "id" : 2,
+        "area" : "Developer",
+        "isChecked" : true
+    }
+]

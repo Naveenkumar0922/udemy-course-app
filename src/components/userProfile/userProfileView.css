@@ -1,0 +1,103 @@
+.user-container {
+    display: flex;
+    margin-top: 10px;
+}
+.user-photo {
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-right: 10px;
+}
+.photo {
+    height:120px;
+}
+.user-details {
+    width:100%;
+    height: 468px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-left: 10px;
+    padding : 10px;
+}
+.user-name {
+    display: flex;
+}
+.label {
+    text-align: left;
+    font: normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+.textbox {
+    width: 300px;
+    height: 40px;
+}
+.input-data {
+    text-align: left;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #848484;
+    background: #F7F8FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text-area {
+    width: 50%;
+    height: 70px;
+    background: #F6F8FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.about-text {
+    text-align: left;
+}
+.check-box {
+    width: 20px;
+    height: 20px;
+    background: transparent 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+}
+.area-checkbox {
+    text-align: left;
+}
+.label-text {
+    letter-spacing: 0px;
+    color: #242222;
+    opacity: 1;
+}
+.radio-btn {
+    margin-top: 10px;
+    text-align: left;
+}
+.user-info {
+    width: 100%;
+    height: 130px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E0E0;
+    opacity: 1;
+    margin-top: 10px;
+    padding-top: 5px;padding-left: 5px;
+}
+.padding-text {
+    padding-right: 40px;
+}
+.experience-info {
+    margin-bottom: 8px;
+}
+.save-btn {
+    width: 100px;
+    height:35px;
+    background: #FF6738 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+.save-text {
+    text-align: center;
+    font: normal normal 400 14px/10px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.btn-align {
+    text-align: end;
+}

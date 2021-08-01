@@ -1,0 +1,249 @@
+
+.container .course-bar {
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    text-align: left;
+    font: normal normal 600 20px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #0F1317;
+    opacity: 1;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    display: flex;
+}
+.course-container {
+    display: flex;
+}
+.course-list  {
+    width: 80%;
+}
+.cart-list {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 280px;
+    height: 407px;
+}
+.cart-list-title{
+    text-align: center;
+    height: 60px;
+    margin-top: 5px;
+    display: grid;
+    align-items: end;
+    font-weight: 600;
+}
+
+.cart-list-title::after{
+    background: #00000029;
+    content: "";
+    height: 1px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+}
+
+.cart-list-container{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:10px;
+}
+.img-rectangle {
+    display: inline-block;
+    top: 298px;
+    left: 159px;
+    width: 79px;
+    height: 70px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.item-name{
+    width: 335px;
+    text-align: left;
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+}
+.cart-view {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        height: 275px;
+}
+.cart-body{
+    margin: 0;
+    border-radius: 0px;
+    height:90px;
+}
+.cart-item-list {
+
+    display : flex;
+}
+.small{
+    height:50px;
+    width:50px;
+    margin-top: 13px;
+}
+
+.cart-course{
+    padding:10px;
+}
+.cart-text{
+    margin: 10px 0px 0px 15px;
+    display: inline-block;
+}
+.cart-amount{
+    text-align: end;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+.total-text {
+    text-align: left;
+    font: normal normal medium 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+}
+.amt-text {
+    margin: 10px 0px 0px 15px;
+    display: inline-block;
+}
+.total-text {
+    text-align: left;
+    font: normal normal medium 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+    font-size: 14px;
+}
+.width-text{
+    width:50%;
+}
+.checkout-text{
+  display: flex;
+  place-items: center;
+  color: #FF6738;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+}
+.container-text {
+    display: flex;
+}
+.total-value-container {
+    height: 60px;
+}
+
+.total-value-container::before{
+    background: #00000029;
+    content: "";
+    height: 1px;
+    width: 250px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+    display:block;
+}
+.cart-items-holder{
+    flex-direction: column;
+    overflow: auto;
+}
+.empty-text {
+    text-align: left;
+    font: italic normal medium 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #AAAAAA;
+    opacity: 1;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.font-text {
+    font-size:16px;
+}
+.orderby{
+    float: right;
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 10px;
+    position: relative;
+    right: 280px;
+    top: 18px;
+}
+.orderby-icon{
+    position: relative;
+    top: 2px;
+}
+
+.order-options-container{
+    position: absolute;
+    top: 35px;
+    right: 315px;
+    background: white;
+    width: 100px;
+    box-shadow: 0px 3px 6px #00000029;
+    
+}
+
+.order-options-container > div:first-child{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.order-options{
+    padding: 5px;
+    font-size: 13px;
+}
+
+.order-options-container.show{
+    display:block;
+}
+.searchform div {
+    height: 26px;
+    width: 193px;
+    }
+    
+    .searchboxwrapper {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    }
+    
+    .searchbox {
+    border: 1px solid #dadada;
+    outline: none;
+    font: 11px 'Montserrat', sans-serif;
+    color: #777;
+    width: 240px;
+    height: 26px;
+    background: #fff;
+    padding-left: 10px;
+    position: relative;
+    bottom: 20px;
+    right:15px;
+    }
+    
+    .searchsubmit {
+    font-family: 'FontAwesome';
+    width: 29px;
+    height: 29px;
+    border: 1px solid #dadada;
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background: #FF6738;
+    border: none;
+    color: #5d3250;
+    cursor: hand; cursor: pointer;
+    }
+
+
+
+
+

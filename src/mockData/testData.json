@@ -1,0 +1,68 @@
+[
+    {
+        "id" : 1,
+        "courseName": "Responsive Design Course XYZ How to design responsive templates",
+        "author": "Joseph Marie",
+        "actualPrice" : 500,
+        "price" : 900,
+        "discount" : 10,
+        "tags" : "React",
+        "isWishlist": false,
+        "isAddcart": false
+    },
+    {
+        "id" : 2,
+        "courseName": "Java Spring boot Framework Application",
+        "author": "Naveen kumar",
+        "actualPrice" : 593,
+        "price" : 593,
+        "discount" : 8,
+        "tags" : "React",
+        "isWishlist": true,
+        "isAddcart": false
+    },
+    {
+        "id" : 3,
+        "courseName": "Responsive Design Course XYZ How to design responsive templates",
+        "author": "Joseph Marie",
+        "actualPrice" : 500,
+        "price" : 900,
+        "discount" : 10,
+        "tags" : "React",
+        "isWishlist": false,
+        "isAddcart": false
+    },
+    {
+        "id" : 4,
+        "courseName": "Responsive Design Course XYZ How to design responsive templates",
+        "author": "Joseph Marie",
+        "actualPrice" : 500,
+        "price" : 900,
+        "discount" : 10,
+        "tags" : "React",
+        "isWishlist": false,
+        "isAddcart": false
+    },
+    {
+        "id" : 5,
+        "courseName": "Responsive Design Course XYZ How to design responsive templates",
+        "author": "Joseph Marie",
+        "actualPrice" : 500,
+        "price" : 900,
+        "discount" : 10,
+        "tags" : "React",
+        "isWishlist": false,
+        "isAddcart": false
+    },
+    {
+        "id" : 6,
+        "courseName": "Responsive Design Course XYZ How to design responsive templates",
+        "author": "Joseph Marie",
+        "actualPrice" : 500,
+        "price" : 900,
+        "discount" : 10,
+        "tags" : "React",
+        "isWishlist": false,
+        "isAddcart": false
+    }
+]
